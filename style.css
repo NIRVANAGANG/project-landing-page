@@ -90,3 +90,37 @@ p {
   font-weight: bold;
   font-style: italic;
 }
+/* ACTION */
+.action {
+  display: flex;
+  height: 150px;
+  width: auto;
+  border: 1px solid blue;
+  background-color: #3882f6;
+  align-items: center;
+  justify-content: space-around;
+  margin: 150px;
+  border-radius: 10px;
+}
+h3 {
+  color: #e5e7eb;
+  font-weight: 900;
+  font-size: 38px;
+}
+.call,
+p {
+  color: #e5e7eb;
+}
+.cal {
+  border: 1px solid white;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 20px;
+}
+footer {
+  display: flex;
+  background-color: #1f2937;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
